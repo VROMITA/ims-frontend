@@ -12,12 +12,14 @@ import {MatButtonModule} from "@angular/material/button";
 import {ReactiveFormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 import {MatTableModule} from "@angular/material/table";
+import { IncidentDetailsComponent } from './incident-details/incident-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    IncidentListComponent
+    IncidentListComponent,
+    IncidentDetailsComponent
   ],
   imports: [
     BrowserModule,

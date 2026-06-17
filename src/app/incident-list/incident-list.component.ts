@@ -32,5 +32,9 @@ export class IncidentListComponent implements OnInit{
 
   }
 
+  onRowClick(row: any){
+    this.router.navigate(["/incidents/" + row.id]);
+  }
+
 
 }
